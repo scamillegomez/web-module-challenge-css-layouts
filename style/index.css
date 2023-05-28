@@ -278,6 +278,7 @@ button:hover {
   main {
     position: relative;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100vw;
@@ -287,7 +288,7 @@ button:hover {
     position: relative;
     height: 90vh;
     min-width: 80vw;
-    margin-bottom: 200px;
+    margin-bottom: 4%;
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -444,6 +445,29 @@ button:hover {
     text-decoration: underline;
   }
   
+
+  footer {
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 2%; */
+  }
+
+  footer nav {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    /* flex: 1; */
+    /* max-width: 30%; */
+    /* margin: 5%;
+    margin-bottom: 5%; */
+    /* font-size: 1.7rem; */
+    gap: 30px;
+  }
+  /* footer nav{
+    
+  } */
+
+
   button {
     color: white;
     text-transform: uppercase;
